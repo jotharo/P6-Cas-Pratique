@@ -2,7 +2,7 @@ const express = require('express');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://User01:User01Pswd@cluster0.acudl.mongodb.net/test?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://>User>:<Pswd>@cluster0.acudl.mongodb.net/test?retryWrites=true&w=majority',// corriger adresse si on veut faire fonctionner
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
